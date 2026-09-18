@@ -67,8 +67,8 @@ modules:
       - --disable-xxhash
     sources:
       - type: archive
-        url: https://download.samba.org/pub/rsync/src/rsync-3.4.1.tar.gz
-        sha256: 2924bcb3a1ed8b551fc101f740b9f0fe0a202b115027647cf69850d65fd88c52
+        url: https://download.samba.org/pub/rsync/src/rsync-3.5.0.tar.gz
+        sha256: c7ffd1ef653e99540f661e47cb00b7f9cad1ee6b972399b16f93d672656e0d33
         x-checker-data:
           type: anitya
           project-id: 4217
@@ -126,9 +126,9 @@ modules:
         only-arches:
           - x86_64
 
-        url: https://download.jetbrains.com/python/pycharm-253.28086.55.tar.gz
-        sha256: 32df557617b2e5d4462303a49f977f529341fbb7e08b99f32121b281db1cb846
-        size: 1197805892
+        url: https://download.jetbrains.com/python/pycharm-263.4732.31.tar.gz
+        sha256: 237e90d2bf131efe8eda4433310fbcaa0ae4a447f8db7aab2b9be0f8ba74db38
+        size: 1267740056
 
         # DO NOT EDIT
         type: extra-data
@@ -141,9 +141,9 @@ modules:
         only-arches:
           - aarch64
 
-        url: https://download.jetbrains.com/python/pycharm-253.28086.55-aarch64.tar.gz
-        sha256: f5e3e509ccbc6d7e1550afad8540953d7f5810d080563f22a8050cda3cfcba80
-        size: 1193463455
+        url: https://download.jetbrains.com/python/pycharm-263.4732.31-aarch64.tar.gz
+        sha256: 37ddb4cd13e50bb9e2486ca8d8c657ebfc66de2c4b2ea54bca1c0d9de4f1f988
+        size: 1281535329
 
         # DO NOT EDIT
         type: extra-data
