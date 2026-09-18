@@ -123,9 +123,9 @@ modules:
           type: anitya
           is-main-source: true
           project-id: 373887
-          url-template: https://github.com/Alex313031/thorium/releases/download/M${version}/thorium-browser_${version}_AVX2.zip
+          url-template: https://github.com/gz83/thorium/releases/download/M${version}/thorium-browser_${version}_AVX2.zip
 
-        url: https://github.com/Alex313031/thorium/releases/download/M130.0.6723.174/thorium-browser_130.0.6723.174_AVX2.zip
+        url: https://github.com/gz83/thorium/releases/download/M130.0.6723.174/thorium-browser_130.0.6723.174_AVX2.zip
         sha256: 2a2adbd1fef56c79c0370b08e95b387ee69a00d083f3e0690e3719584bbe0c98
         size: 298769526
 
