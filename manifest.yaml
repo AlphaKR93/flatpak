@@ -74,9 +74,9 @@ modules:
           url: https://discord.com/api/download/ptb?platform=linux&format=tar.gz
           pattern: https://dl.ptb-discordapp.net/apps/linux/([0-9.]+)/discord-ptb-([0-9.]+).tar.gz
 
-        url: https://ptb.dl2.discordapp.net/apps/linux/0.0.165/discord-ptb-0.0.165.tar.gz
-        sha256: 947fa5cc8a05c3d58b9a573726490a8f66cec13bf53ca408118f4aaa48d85498
-        size: 108681854
+        url: https://ptb.dl2.discordapp.net/apps/linux/1.0.215/discord-ptb-1.0.215.tar.gz
+        sha256: 02fefa27d5afa41938344e1c5497147998ab22d0457ad053b1ec6855007eb5c5
+        size: 2190710
 
         # DO NOT EDIT
         type: extra-data
@@ -98,8 +98,8 @@ modules:
           - PREFIX=/app
         sources:
           - type: archive
-            url: https://github.com/pciutils/pciutils/archive/v3.14.0.tar.gz
-            sha256: 9f99bb89876510435fbfc47bbc8653bc57e736a21915ec0404e0610460756cb8
+            url: https://github.com/pciutils/pciutils/archive/v3.15.0.tar.gz
+            sha256: 06f467642057599acf396bc17340452fac3308f1e08be19e0c32587e42d7017b
             x-checker-data:
               type: anitya
               project-id: 2605
@@ -108,8 +108,8 @@ modules:
       - name: socat
         sources:
           - type: archive
-            url: http://www.dest-unreach.org/socat/download/socat-1.8.0.3.tar.gz
-            sha256: a9f9eb6cfb9aa6b1b4b8fe260edbac3f2c743f294db1e362b932eb3feca37ba4
+            url: http://www.dest-unreach.org/socat/download/socat-1.8.1.3.tar.gz
+            sha256: 06602ffd591e98c75b3dc1d66f0f19136cc666b0b2d95caad987d6ab2cb28097
             x-checker-data:
               type: anitya
               project-id: 4848
