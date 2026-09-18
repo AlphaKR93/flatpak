@@ -10,7 +10,7 @@ on:
 jobs:
   setup:
     name: Setup workflow
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-slim
 
     outputs:
       matrix: ${{ steps.resolve.outputs.matrix }}
@@ -33,7 +33,7 @@ jobs:
   check:
     name: Check the metadata is up-to-date
     needs: setup
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
