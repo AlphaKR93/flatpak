@@ -56,8 +56,8 @@ modules:
       - --disable-xxhash
     sources:
       - type: archive
-        url: https://download.samba.org/pub/rsync/src/rsync-3.4.1.tar.gz
-        sha256: 2924bcb3a1ed8b551fc101f740b9f0fe0a202b115027647cf69850d65fd88c52
+        url: https://download.samba.org/pub/rsync/src/rsync-3.5.0.tar.gz
+        sha256: c7ffd1ef653e99540f661e47cb00b7f9cad1ee6b972399b16f93d672656e0d33
         x-checker-data:
           type: anitya
           project-id: 4217
@@ -112,9 +112,9 @@ modules:
         only-arches:
           - x86_64
 
-        url: https://download.jetbrains.com/webstorm/WebStorm-253.28086.39.tar.gz
-        sha256: 9fb7a5574a7606cdca133e6a3e6561fcfd6f9febfe54be65c516173cef1f4446
-        size: 1068985908
+        url: https://download.jetbrains.com/webstorm/WebStorm-263.5153.41.tar.gz
+        sha256: 8fc595b1c9ecb0729ef081ec34a1ae908833d499c3774180d18fdfc3bc7ddc94
+        size: 1138624811
 
         # DO NOT EDIT
         type: extra-data
@@ -127,9 +127,9 @@ modules:
         only-arches:
           - aarch64
 
-        url: https://download.jetbrains.com/webstorm/WebStorm-253.28086.39-aarch64.tar.gz
-        sha256: acd5194c62b17927f0aea2f81cf90327fc8832a54d8fc6bf836cacb8d10d4ced
-        size: 1064296726
+        url: https://download.jetbrains.com/webstorm/WebStorm-263.5153.41-aarch64.tar.gz
+        sha256: 44ea6c2811ca9bf91e296f8eeba6df1977fe469c88eb224a3b420798df067441
+        size: 1153010298
 
         # DO NOT EDIT
         type: extra-data
