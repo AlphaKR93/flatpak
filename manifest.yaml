@@ -56,8 +56,8 @@ modules:
       - --disable-xxhash
     sources:
       - type: archive
-        url: https://download.samba.org/pub/rsync/src/rsync-3.4.1.tar.gz
-        sha256: 2924bcb3a1ed8b551fc101f740b9f0fe0a202b115027647cf69850d65fd88c52
+        url: https://download.samba.org/pub/rsync/src/rsync-3.5.0.tar.gz
+        sha256: c7ffd1ef653e99540f661e47cb00b7f9cad1ee6b972399b16f93d672656e0d33
         x-checker-data:
           type: anitya
           project-id: 4217
@@ -112,9 +112,9 @@ modules:
         only-arches:
           - x86_64
 
-        url: https://download.jetbrains.com/idea/idea-253.28086.51.tar.gz
-        sha256: 4bab2677f95d13f88cffe1d377f31f82c164da1bce44356ee687bcd7305e726f
-        size: 1494807121
+        url: https://download.jetbrains.com/idea/idea-263.5153.40.tar.gz
+        sha256: b899eb3a97f3aefc66e9bc2af18fe7a76f3dc790b1a37c93ae5b3db438331a93
+        size: 1605750301
 
         # DO NOT EDIT
         type: extra-data
@@ -127,9 +127,9 @@ modules:
         only-arches:
           - aarch64
 
-        url: https://download.jetbrains.com/idea/idea-253.28086.51-aarch64.tar.gz
-        sha256: f688a375375aef2485841ad98b0ac7d63205da076f140da13f5d9d67f70425cd
-        size: 1490447195
+        url: https://download.jetbrains.com/idea/idea-263.5153.40-aarch64.tar.gz
+        sha256: a773d6510be7e40e664ece22c9bdcb72057a67650e71cc75abc323b36f3db376
+        size: 1619504207
 
         # DO NOT EDIT
         type: extra-data
